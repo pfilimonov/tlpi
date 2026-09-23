@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/peter/Documents/learning/tlpi/build/cmake_install.cmake",
-		"/home/peter/Documents/learning/tlpi/build/src/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
