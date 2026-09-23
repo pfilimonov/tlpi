@@ -1,0 +1,5 @@
+/home/peter/Documents/learning/tlpi/build/CMakeFiles/edit_cache.dir
+/home/peter/Documents/learning/tlpi/build/CMakeFiles/rebuild_cache.dir
+/home/peter/Documents/learning/tlpi/build/src/CMakeFiles/solution.dir
+/home/peter/Documents/learning/tlpi/build/src/CMakeFiles/edit_cache.dir
+/home/peter/Documents/learning/tlpi/build/src/CMakeFiles/rebuild_cache.dir

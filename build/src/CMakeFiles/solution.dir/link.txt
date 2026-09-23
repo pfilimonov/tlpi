@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/solution.dir/link.d CMakeFiles/solution.dir/ch4/ex1.c.o CMakeFiles/solution.dir/__/lib/error_functions.c.o CMakeFiles/solution.dir/__/lib/get_num.c.o -o solution
