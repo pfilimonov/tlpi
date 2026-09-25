@@ -1,0 +1,23 @@
+/*
+ * Assume in each of the following cases that the initial set of process user
+IDs is real=1000 effective=0 saved=0 file-system=0. What would be the state of
+the user IDs after the following calls?
+
+a) setuid(2000);
+
+b) setreuid(–1, 2000);
+
+c) seteuid(2000);
+
+d) setfsuid(2000);
+
+e) setresuid(–1, 2000, 3000)
+*/
+
+/* ANSWER
+ * a) r=2000 e=2000 s=2000 f=2000
+ * b) r=1000 e=2000 s=2000 f=2000
+ * c) r=1000 e=2000 s=0 f=2000
+ * d) r=1000 e=0 s=0 f=2000
+ * e) r=1000 e=2000 s=3000 f=2000
+ */

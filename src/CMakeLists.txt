@@ -5,7 +5,7 @@ add_executable(solution)
 
 target_sources(solution
   PRIVATE
-    ch8/ex2.c
+    ch9/ex3.c
     "../lib/error_functions.c"
     "../lib/get_num.c"
 
@@ -14,7 +14,9 @@ target_sources(solution
     TYPE HEADERS
     BASE_DIRS
       ../lib/
+      .
     FILES
       "../lib/tlpi_hdr.h"
+      "check.h"
 )
 
