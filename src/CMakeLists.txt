@@ -5,7 +5,7 @@ add_executable(solution)
 
 target_sources(solution
   PRIVATE
-    ch12/ex2.c
+    ch12/ex3.c
     "../lib/error_functions.c"
     "../lib/get_num.c"
 

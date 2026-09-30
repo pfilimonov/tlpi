@@ -213,6 +213,16 @@ int main(void) {
     get_proc_info(pid);
   }
 
+  if (errno != 0) {
+    errExit("readdir");
+  } else {
+    // reached the end of directory
+  }
+
+  if (closedir(dirp) == -1) {
+    errExit("closedir");
+  }
+
   printf("Number of processes: %d\n", print_proc_info(init_proc, 0));
 
   free_proc_info(init_proc);
